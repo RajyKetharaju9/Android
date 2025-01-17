@@ -1,0 +1,55 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <!-- Length Input with larger touch target size -->
+    <EditText
+        android:id="@+id/lengthInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Length"
+        android:inputType="numberDecimal"
+        android:padding="16dp"
+        android:textSize="16sp" />
+
+    <!-- Width Input with larger touch target size -->
+    <EditText
+        android:id="@+id/widthInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Width"
+        android:inputType="numberDecimal"
+        android:padding="16dp"
+        android:textSize="16sp" />
+
+    <!-- Calculate Button with larger touch target size -->
+    <Button
+        android:id="@+id/calculateButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calculate"
+        android:padding="16dp"
+        android:textSize="16sp"/>
+
+    <!-- Reset Button with larger touch target size -->
+    <Button
+        android:id="@+id/resetButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reset"
+        android:padding="16dp"
+        android:textSize="16sp"/>
+
+    <!-- Result TextView with margin and larger font size -->
+    <TextView
+        android:id="@+id/resultTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Results will be displayed here"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp"
+        android:gravity="center"/>
+</LinearLayout>
